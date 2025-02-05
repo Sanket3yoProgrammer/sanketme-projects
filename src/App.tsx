@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     name: "Phg-web",
-    description: "A web application with cool features",
+    description: "A web application with cool features for friends gang.",
     link: "https://phg-web.vercel.app/index.html"
   },
   {
