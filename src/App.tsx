@@ -109,7 +109,7 @@ const projects = [
 
 const techStack = [
   "React", "TypeScript", "Node.js", "Express", "MongoDB",
-  "PostgreSQL", "Docker", "AWS", "Git", "Tailwind CSS","HTML","CSS","JavaScript","Python",
+  "PostgreSQL", "Docker", "AWS", "Git", "Tailwind CSS","HTML","CSS","JavaScript","Python","Firebase",
 ];
 
 function MobileMenu({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (value: boolean) => void }) {
@@ -292,7 +292,7 @@ function About() {
             <p><span className="text-cyan-400">Name:</span> Sanket</p>
             <p><span className="text-cyan-400">Role:</span> Not!? A Full Stack Developer</p>
             <p><span className="text-cyan-400">Location:</span> India</p>
-            <p><span className="text-cyan-400">Age:</span> 16</p>
+            <p><span className="text-cyan-400">Age:</span> 15</p>
             <p><span className="text-cyan-400">Experience:</span> 3+ years</p>
           </motion.div>
 
