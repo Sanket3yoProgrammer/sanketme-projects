@@ -210,7 +210,7 @@ function Home() {
             alt="Profile" 
             className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-purple-500 dark:border-blue-500"
           />
-          <h1 className="text-4xl font-bold text-white dark:text-gray-100 mb-2">Sanket</h1>
+          <h1 className="text-4xl font-bold text-white dark:text-gray-100 mb-2">Sanket3yoProgrammer</h1>
           <p className="text-xl text-gray-500 dark:text-gray-300">A Developer</p>
         </div>
 
