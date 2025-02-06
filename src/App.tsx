@@ -160,8 +160,8 @@ function Navbar({ isOpen, setIsOpen, darkMode, toggleDarkMode }: {
   toggleDarkMode: () => void;
 }) {
   return (
-    <nav className="fixed w-full bg-black/50 dark:bg-white/50 backdrop-blur-md z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <nav className="fixed w-full bg-gradient-to-r from-blue-500 to-blue-700 dark:bg-gradient-to-r from-purple-700 to-purple-900 backdrop-blur-md z-50">
+       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="text-xl font-bold animate-gradient">Portfolio</Link>
           
