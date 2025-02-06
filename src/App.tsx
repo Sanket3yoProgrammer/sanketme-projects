@@ -210,6 +210,18 @@ function Home() {
             alt="Profile" 
             className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-blue-500 dark:border-purple-500"
           />
+
+          <div className="relative flex justify-center">
+  <motion.img 
+    src="https://avatars.githubusercontent.com/u/152056082?v=4" 
+    alt="Profile" 
+    className="w-40 h-40 rounded-full mx-auto border-4 border-blue-500 dark:border-purple-500 shadow-xl transition-transform duration-300 hover:rotate-3 hover:scale-110"
+    whileHover={{ rotateX: 20, rotateY: 20, scale: 1.1 }}
+  />
+  <div className="absolute -top-4 -left-4 w-10 h-10 bg-blue-400 rounded-full blur-lg animate-pulse"></div>
+  <div className="absolute -bottom-4 -right-4 w-10 h-10 bg-purple-500 rounded-full blur-lg animate-pulse"></div>
+</div>
+          
           <h1 className="text-3xl font-bold text-white dark:text-gray-100 mb-2">Sanket3yoProgrammer</h1>
           <p className="text-xl text-gray-500 dark:text-gray-300">A Passionate Dev 🧑‍💻😎</p>
         </div>
