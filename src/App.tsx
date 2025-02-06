@@ -166,16 +166,18 @@ function Navbar({ isOpen, setIsOpen, darkMode, toggleDarkMode }: {
           <Link to="/" className="text-xl font-bold animate-gradient">Portfolio</Link>
           
           <div className="hidden md:flex items-center space-x-4">
-            <Link to="/" className="text-gray-300 dark:text-gray-200 hover:text-white dark:hover:text-blue px-3 py-2">
+            <Link to="/" className="text-gray-100 dark:text-gray-100 hover:text-white dark:hover:text-yellow-400 px-3 py-2">
               Home
             </Link>
-            <Link to="/about" className="text-gray-300 dark:text-gray-200 hover:text-white dark:hover:text-blue px-3 py-2">
+            <Link to="/about" className="text-gray-100 dark:text-gray-100 hover:text-white dark:hover:text-yellow-400 px-3 py-2">
               About
             </Link>
-            <button
+<button
               onClick={toggleDarkMode}
               className="p-2 rounded-full hover:bg-gray-700/20 dark:hover:bg-gray-300/20"
             >
+              {darkMode ? <Sun className="text-yellow-300" /> : <Moon className="text-gray-100" />}
+            </button>
             
           </div>
           <div className="md:hidden flex items-center space-x-4">
