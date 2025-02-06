@@ -163,7 +163,8 @@ function Navbar({ isOpen, setIsOpen, darkMode, toggleDarkMode }: {
     <nav className="fixed w-full bg-black/50 dark:bg-white/50 backdrop-blur-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="text-white dark:text-gray-900 text-xl font-bold">Portfolio</Link>
+          <Link to="/" className="text-xl font-bold animate-gradient">Portfolio</Link>
+          
           <div className="hidden md:flex items-center space-x-4">
             <Link to="/" className="text-gray-300 dark:text-gray-700 hover:text-white dark:hover:text-black px-3 py-2">
               Home
@@ -205,17 +206,13 @@ function Home() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
         <div className="text-center mb-16">
-          <img 
-            src="https://avatars.githubusercontent.com/u/152056082?v=4" 
-            alt="Profile" 
-            className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-blue-500 dark:border-purple-500"
-          />
+          
 
           <div className="relative flex justify-center">
   <motion.img 
     src="https://avatars.githubusercontent.com/u/152056082?v=4" 
     alt="Profile" 
-    className="w-40 h-40 rounded-full mx-auto border-4 border-blue-500 dark:border-purple-500 shadow-xl transition-transform duration-300 hover:rotate-3 hover:scale-110"
+    className="w-40 h-40 rounded-full mx-auto border-4 border-blue-500 dark:border-purple-500 shadow-xl transition-transform duration-300 hover:rotate-3 hover:scale-110 animate-pulse"
     whileHover={{ rotateX: 20, rotateY: 20, scale: 1.1 }}
   />
   <div className="absolute -top-4 -left-4 w-10 h-10 bg-blue-400 rounded-full blur-lg animate-pulse"></div>
