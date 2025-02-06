@@ -208,10 +208,10 @@ function Home() {
           <img 
             src="https://avatars.githubusercontent.com/u/152056082?v=4" 
             alt="Profile" 
-            className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-purple-500 dark:border-blue-500"
+            className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-blue-500 dark:border-purple-500"
           />
           <h1 className="text-3xl font-bold text-white dark:text-gray-100 mb-2">Sanket3yoProgrammer</h1>
-          <p className="text-xl text-gray-500 dark:text-gray-300">A Developer</p>
+          <p className="text-xl text-gray-500 dark:text-gray-300">A Passionate Developer</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -289,9 +289,9 @@ function About() {
             transition={{ delay: 0.5 }}
             className="space-y-2 text-lg"
           >
-            <p><span className="text-cyan-400">Name:</span> Sanket</p>
+            <p><span className="text-cyan-400">Name:</span> Sanket Kumar Padhan</p>
             <p><span className="text-cyan-400">Role:</span> Not!? A Full Stack Developer</p>
-            <p><span className="text-cyan-400">Location:</span> India</p>
+            <p><span className="text-cyan-400">Location:</span> Odisha, India</p>
             <p><span className="text-cyan-400">Age:</span> 15</p>
             <p><span className="text-cyan-400">Experience:</span> 3+ years</p>
           </motion.div>
