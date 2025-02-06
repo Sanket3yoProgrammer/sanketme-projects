@@ -209,14 +209,15 @@ function Home() {
           
 
           <div className="relative flex justify-center">
+            <div className="absolute w-[160px] h-[160px] bg-gradient-to-r animate-pulse rounded-full blur-3x1 opacity-80 translate-y-6 from-blue-500 via-purple-500 to-pink-500">
   <motion.img 
     src="https://avatars.githubusercontent.com/u/152056082?v=4" 
     alt="Profile" 
-    className="w-40 h-40 rounded-full mx-auto border-4 border-blue-500 dark:border-purple-500 shadow-xl transition-transform duration-300 hover:rotate-3 hover:scale-110 animate-pulse"
+    className="w-40 h-40 rounded-full mx-auto border-4 border-blue-500 dark:border-purple-500 shadow-xl transition-transform duration-300 hover:rotate-3 hover:scale-110 backdrop-blur-lg bg-opacity-40"
     whileHover={{ rotateX: 20, rotateY: 20, scale: 1.1 }}
-  />
-  <div className="absolute -top-4 -left-4 w-10 h-10 bg-blue-400 rounded-full blur-lg animate-pulse"></div>
-  <div className="absolute -bottom-4 -right-4 w-10 h-10 bg-purple-500 rounded-full blur-lg animate-pulse"></div>
+  /> </div>
+  <div className="absolute -top-4 -left-4 w-18 h-18 bg-blue-400 rounded-full blur-lg animate-pulse"></div>
+  <div className="absolute -bottom-4 -right-4 w-18 h-18 bg-purple-500 rounded-full blur-lg animate-pulse"></div>
 </div>
           
           <h1 className="text-3xl font-bold text-white dark:text-gray-100 mb-2">Sanket3yoProgrammer</h1>
