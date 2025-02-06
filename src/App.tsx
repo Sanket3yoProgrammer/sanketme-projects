@@ -172,19 +172,14 @@ function Navbar({ isOpen, setIsOpen, darkMode, toggleDarkMode }: {
             <Link to="/about" className="text-gray-300 dark:text-gray-700 hover:text-white dark:hover:text-black px-3 py-2">
               About
             </Link>
-            <button
-              onClick={toggleDarkMode}
-              className="p-2 rounded-full hover:bg-gray-700/20 dark:hover:bg-gray-300/20"
-            >
-              {darkMode ? <Sun className="text-gray-300" /> : <Moon className="text-gray-700" />}
-            </button>
+            
           </div>
           <div className="md:hidden flex items-center space-x-4">
             <button
               onClick={toggleDarkMode}
               className="p-2 rounded-full hover:bg-gray-700/20 dark:hover:bg-gray-300/20"
             >
-              {darkMode ? <Sun className="text-gray-300" /> : <Moon className="text-gray-700" />}
+              {darkMode ? <Sun className="text-yellow-300" /> : <Moon className="text-gray-100" />}
             </button>
             <button onClick={() => setIsOpen(!isOpen)} className="text-white dark:text-gray-900">
               <Menu size={24} />
