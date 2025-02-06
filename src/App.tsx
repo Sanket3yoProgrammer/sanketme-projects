@@ -121,7 +121,7 @@ function MobileMenu({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (value:
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: "100%" }}
           transition={{ type: "spring", bounce: 0, duration: 0.4 }}
-          className="fixed inset-y-0 right-0 w-full sm:w-64 bg-black/95 dark:bg-white/95 backdrop-blur-lg z-40"
+          className="fixed inset-y-0 right-0 w-full sm:w-64 bg-white/95 dark:bg-black/95 backdrop-blur-lg z-40"
         >
           <div className="flex flex-col p-6">
             <button
@@ -134,14 +134,14 @@ function MobileMenu({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (value:
               <Link
                 to="/"
                 onClick={() => setIsOpen(false)}
-                className="text-xl text-gray-300 dark:text-gray-700 hover:text-white dark:hover:text-black"
+                className="text-xl text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white"
               >
                 Home
               </Link>
               <Link
                 to="/about"
                 onClick={() => setIsOpen(false)}
-                className="text-xl text-gray-300 dark:text-gray-700 hover:text-white dark:hover:text-black"
+                className="text-xl text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white"
               >
                 About
               </Link>
@@ -222,8 +222,8 @@ function Home() {
   <div className="absolute -bottom-4 -right-4 w-10 h-10 bg-purple-500 rounded-full blur-lg animate-pulse"></div>
   </div>
           
-          <h1 className="text-3xl font-bold text-white dark:text-gray-100 mb-2">Sanket3yoProgrammer</h1>
-          <p className="text-xl text-gray-500 dark:text-gray-300">A Passionate Dev 🧑‍💻😎</p>
+          <h1 className="text-3xl font-bold text-black dark:text-gray-100 mb-2">Sanket3yoProgrammer</h1>
+          <p className="text-xl text-gray-700 dark:text-gray-300">A Passionate Dev 🧑‍💻😎</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
