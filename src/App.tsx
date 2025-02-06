@@ -121,7 +121,7 @@ function MobileMenu({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (value:
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: "100%" }}
           transition={{ type: "spring", bounce: 0, duration: 0.4 }}
-          className="fixed inset-y-0 right-0 w-full sm:w-64 bg-white/95 dark:bg-black/95 backdrop-blur-lg z-999"
+          className="fixed inset-y-0 right-0 w-full sm:w-64 bg-white/95 dark:bg-black/95 backdrop-blur-lg z-100"
         >
           <div className="flex flex-col p-6">
             <button
