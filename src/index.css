@@ -69,7 +69,7 @@ button {
   position: relative;
   overflow: hidden;
   border-radius: 12px;
-  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  background: linear-gradient(135deg, #4f46e5, #9333ea); /* Default gradient: blue */
   color: white;
   font-weight: bold;
   padding: 12px 24px;
@@ -92,6 +92,13 @@ button::before {
 button:hover::before {
   transform: translate(-50%, -50%) scale(1);
   opacity: 0.5;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  button {
+    background: linear-gradient(135deg, #6b46c1, #7f1d96); /* Purple gradient for dark mode */
+  }
 }
 
 @keyframes gradient-animation {
