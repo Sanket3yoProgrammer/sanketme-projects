@@ -209,13 +209,13 @@ function Home() {
           
 
           <div className="relative flex justify-center">
-            <div className="bg-gradient-to-r animate-pulse rounded-full blur-3x1 opacity-80 translate-y-6 from-blue-500 via-purple-500 to-pink-500">
+    
   <motion.img 
     src="https://avatars.githubusercontent.com/u/152056082?v=4" 
     alt="Profile" 
-    className="w-30 h-30 rounded-full mx-auto border-4 border-blue-500 dark:border-purple-500 shadow-xl transition-transform duration-300 hover:rotate-3 hover:scale-110 backdrop-blur-lg bg-opacity-40"
+    className="w-20 h-20 rounded-full mx-auto border-4 border-blue-500 dark:border-purple-500 shadow-xl transition-transform duration-300 hover:rotate-3 hover:scale-110"
     whileHover={{ rotateX: 20, rotateY: 20, scale: 1.1 }}
-  /> </div>
+  />
   <div className="absolute -top-4 -left-4 w-18 h-18 bg-blue-400 rounded-full blur-lg animate-pulse"></div>
   <div className="absolute -bottom-4 -right-4 w-18 h-18 bg-purple-500 rounded-full blur-lg animate-pulse"></div>
 </div>
