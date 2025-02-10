@@ -232,6 +232,7 @@ function Home() {
       className="relative group flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 shadow-lg hover:shadow-2xl transition-all duration-300 text-white font-bold text-lg overflow-hidden"
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
+      style={{marginBottom: "20px"}}
     >
       <span className="absolute inset-0 bg-white opacity-10 blur-lg rounded-full group-hover:opacity-20 transition-all duration-300" />
       <span>Visit My Portfolio</span>
