@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Menu, X, Github, Heart, Mail, Sun, Moon } from 'lucide-react';
+import { Menu, X, Github, Heart, Mail, Sun, Moon, ArrowRightCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const projects = [
@@ -225,7 +225,18 @@ function Home() {
           <h1 className="text-3xl font-bold text-black dark:text-gray-100 mb-2">Sanket3yoProgrammer</h1>
           <p className="text-xl text-gray-700 dark:text-gray-300">A Passionate Dev 🧑‍💻😎</p>
         </div>
-
+<motion.a
+      href="https://sanket3yoprogrammer.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="relative group flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 shadow-lg hover:shadow-2xl transition-all duration-300 text-white font-bold text-lg overflow-hidden"
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.95 }}
+    >
+      <span className="absolute inset-0 bg-white opacity-10 blur-lg rounded-full group-hover:opacity-20 transition-all duration-300" />
+      <span>Visit My Portfolio</span>
+      <ArrowRightCircle className="w-6 h-6 transition-transform duration-300 group-hover:translate-x-2" />
+    </motion.a>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
             <motion.div
