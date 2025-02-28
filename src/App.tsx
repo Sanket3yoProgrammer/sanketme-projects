@@ -13,7 +13,7 @@ export default function YoSphereLanding() {
           <img 
             src="https://github.com/sanket3yoprogrammer.png" 
             alt="Profile" 
-            className="w-32 h-32 rounded-full border-16 border-gray-900 shadow-lg absolute left-1/2 transform -translate-x-1/2 -bottom-16"
+            className="w-32 h-32 rounded-full border-[10px] border-gray-900 shadow-2xl absolute left-1/2 transform -translate-x-1/2 -bottom-16"
           />
         </div>
         <div className="p-8 pt-20 text-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-b-3xl shadow-xl">
@@ -23,7 +23,7 @@ export default function YoSphereLanding() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Welcome to Yo Sphere
+            Yoi! Welcome
           </motion.h1>
           <motion.p 
             className="text-lg max-w-lg mx-auto mb-6 text-gray-300"
