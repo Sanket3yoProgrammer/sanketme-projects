@@ -1,28 +1,24 @@
 import { motion } from "framer-motion";
-import "@fontsource/dancing-script"; // Calligraphy font
-import "@fontsource/parisienne"; // Elegant cursive font
 
 export default function YoSphereLanding() {
   return (
-    <div className="min-h-screen overflow-hidden flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6">
-      <div className="relative w-full max-w-lg rounded-3xl overflow-hidden shadow-2xl bg-opacity-90 backdrop-blur-lg border border-gray-700 p-1 bg-gradient-to-br from-gray-800 to-gray-900">
-        <div className="relative rounded-t-3xl overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6 rounded-3xl shadow-2xl overflow-hidden w-[40rem] p-6 relative">
+      <div className="">
+        <div className="relative">
           <img 
             src="https://i0.wp.com/picjumbo.com/wp-content/uploads/blue-background-oil-abstraction-free-image.jpeg?w=600&quality=80" 
             alt="Background" 
-            className="w-full h-48 object-cover brightness-75"
+            className="w-full h-48 object-cover rounded-t-3xl shadow-inner"
           />
-          <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-16 w-40 h-40 rounded-full p-[6px] bg-gradient-to-r from-purple-500 to-blue-700 shadow-2xl">
-            <img 
-              src="https://github.com/sanket3yoprogrammer.png" 
-              alt="Profile" 
-              className="w-full h-full rounded-full border-4 border-gray-900 object-cover shadow-lg"
-            />
-          </div>
+          <img 
+            src="https://github.com/sanket3yoprogrammer.png" 
+            alt="Profile" 
+            className="w-32 h-32 rounded-full border-[10px] border-gray-900 shadow-2xl absolute left-1/2 transform -translate-x-1/2 -bottom-16"
+          />
         </div>
-        <div className="p-8 pt-24 bg-gray-900 bg-opacity-95 rounded-b-3xl shadow-xl border-t border-gray-700">
+        <div className="p-8 pt-20 text-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-b-3xl shadow-xl">
           <motion.h1 
-            className="text-5xl font-extrabold tracking-wider text-blue-400 drop-shadow-lg font-[Parisienne]"
+            className="text-4xl font-bold mb-3 drop-shadow-lg"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -30,7 +26,7 @@ export default function YoSphereLanding() {
             Yoi! Welcome
           </motion.h1>
           <motion.p 
-            className="text-xl max-w-lg mx-auto mt-4 text-gray-300 font-[Dancing Script] leading-relaxed"
+            className="text-lg max-w-lg mx-auto mb-6 text-gray-300"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -39,7 +35,7 @@ export default function YoSphereLanding() {
             a passionate developer, tech enthusiast, and problem solver. I love crafting innovative 
             digital experiences and exploring the endless possibilities of the web.
           </motion.p>
-          <div className="flex justify-center gap-6 mt-6">
+          <div className="flex justify-center gap-6">
             <a href="/portfolio" className="shiny-cta">My Portfolio</a>
             <a href="/projects" className="shiny-cta">My Projects</a>
           </div>
