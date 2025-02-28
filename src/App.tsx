@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 export default function YoSphereLanding() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-900 text-white text-center p-6">
-      <div className="bg-gray-800 rounded-2xl shadow-lg overflow-hidden w-96">
+      <div className="bg-gray-800 rounded-2xl shadow-lg overflow-hidden w-400">
         <div className="relative">
           <img 
-            src="https://source.unsplash.com/random/400x200" 
+            src="https://i0.wp.com/picjumbo.com/wp-content/uploads/blue-background-oil-abstraction-free-image.jpeg?w=600&quality=80" 
             alt="Background" 
             className="w-full h-32 object-cover" 
           />
