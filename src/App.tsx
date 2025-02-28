@@ -27,7 +27,7 @@ export default function YoSphereLanding() {
           </motion.h1>
           <motion.p 
             className="text-lg max-w-lg mx-auto mb-6 text-gray-300"
-            style={{ fontFamily: 'Jolly Lodger', fontWeight: '400' }}
+            style={{ fontFamily: 'Passions Conflict', 'cursive', fontWeight: '400' }}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
