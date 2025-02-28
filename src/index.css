@@ -23,6 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #000;
   color: white;
+  cursor: none,
 }
 
 .dark body {
@@ -309,4 +310,36 @@ button:hover::before {
     scale: 1.2;
   }
 }
+
+
+
+
+
+  .cursor {
+    pointer-events: none;
+    position: fixed;
+    display: block;
+    border-radius: 0;
+    transform-origin: center center;
+    mix-blend-mode: difference;
+    top: 18px;
+    left: 15px;
+    z-index: 1000;
+    filter: url("#goo");
+  }
+    .cursor span {
+        position: absolute;
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: white;
+        transform-origin: center center;
+        transform: translate(-50%, -50%);
+    }
+
+  
+  svg {
+    display: none;
+  }
 
