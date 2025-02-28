@@ -19,7 +19,7 @@ export default function YoSphereLanding() {
         <div className="p-8 pt-20 text-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-b-3xl shadow-xl">
           <motion.h1 
             className="text-4xl font-bold mb-3 drop-shadow-lg"
-            style={{ fontFamily: 'Rouge Script', fontWeight: '500' }}
+            style={{ fontFamily: 'Montserrat', fontWeight: '600' }}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -28,7 +28,7 @@ export default function YoSphereLanding() {
           </motion.h1>
           <motion.p 
             className="text-lg max-w-lg mx-auto mb-6 text-gray-300"
-            style={{ fontFamily: 'Rouge Script', fontWeight: '400', }}
+            style={{ fontFamily: 'Montserrat', fontWeight: '400', fontSize: '35px' }}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
