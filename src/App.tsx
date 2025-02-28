@@ -23,10 +23,10 @@ export default function YoSphereLanding() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Yoi! Welcome
+            Yo! Welcome
           </motion.h1>
           <motion.p 
-            className="text-lg max-w-lg mx-auto mb-6 text-gray-300"
+            className="text-lg max-w-lg mx-auto mb-6 text-gray-300 font-[Dancing Script]"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
