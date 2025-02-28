@@ -2,15 +2,15 @@ import { motion } from "framer-motion";
 
 export default function YoSphereLanding() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6">
-      <div className="relative w-full max-w-lg rounded-3xl overflow-hidden shadow-2xl bg-opacity-90 backdrop-blur-lg border border-gray-700">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6 overflow-hidden">
+      <div className="relative w-full max-w-lg rounded-3xl overflow-hidden shadow-2xl bg-opacity-90 backdrop-blur-3xl backdrop-saturate-200 border border-gray-700 transform scale-105 hover:scale-110 transition-all duration-500 ease-out bg-white/10">
         <div className="relative">
           <img 
             src="https://i0.wp.com/picjumbo.com/wp-content/uploads/blue-background-oil-abstraction-free-image.jpeg?w=600&quality=80" 
             alt="Background" 
             className="w-full h-48 object-cover rounded-t-3xl"
           />
-          <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-16 w-36 h-36 rounded-full p-1 bg-gradient-to-r from-blue-500 to-purple-700 shadow-2xl">
+          <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-16 w-36 h-36 rounded-full p-1 bg-gradient-to-r from-purple-500 to-pink-700 shadow-[0_0_20px_rgba(255,255,255,0.5)] animate-pulse">
             <img 
               src="https://github.com/sanket3yoprogrammer.png" 
               alt="Profile" 
@@ -18,9 +18,9 @@ export default function YoSphereLanding() {
             />
           </div>
         </div>
-        <div className="p-8 pt-24 bg-gray-900 bg-opacity-90 rounded-b-3xl shadow-lg">
+        <div className="p-8 pt-24 rounded-b-3xl shadow-2xl border border-gray-700 bg-white/10 backdrop-blur-3xl backdrop-saturate-200">
           <motion.h1 
-            className="text-5xl font-extrabold tracking-wider text-blue-400 drop-shadow-lg font-[Poppins]"
+            className="text-5xl font-extrabold tracking-wide text-pink-400 drop-shadow-lg font-['Dancing Script', cursive]"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -28,7 +28,7 @@ export default function YoSphereLanding() {
             Yoi! Welcome
           </motion.h1>
           <motion.p 
-            className="text-lg max-w-lg mx-auto mt-4 text-gray-300 font-[Raleway]"
+            className="text-lg max-w-lg mx-auto mt-4 text-gray-300 font-['Great Vibes', cursive]"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
