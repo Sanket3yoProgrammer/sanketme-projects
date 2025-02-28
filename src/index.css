@@ -158,7 +158,7 @@ button:hover::before {
   isolation: isolate;
   position: relative;
   overflow: hidden;
-  cursor: none;
+  cursor: pointer;
   outline-offset: 4px;
   padding: 1.25rem 2.5rem;
   font-family: inherit;
