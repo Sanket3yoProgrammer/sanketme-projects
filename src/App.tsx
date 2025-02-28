@@ -1,31 +1,30 @@
-import React from "react";
-import "tailwindcss/tailwind.css";
 import { motion } from "framer-motion";
 
-const App: React.FC = () => {
+export default function YoSphereLanding() {
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
-      <motion.div
-        className="text-center p-10 bg-black bg-opacity-30 rounded-2xl shadow-2xl backdrop-blur-lg"
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-900 text-white text-center p-6">
+      <motion.h1 
+        className="text-5xl font-bold mb-4"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
+        transition={{ duration: 0.8 }}
       >
-        <h1 className="text-5xl font-bold text-primary drop-shadow-md">Welcome to YoPost</h1>
-        <p className="mt-4 text-lg text-gray-300 max-w-md">
-          A modern, futuristic, and professional file-sharing/gallery system.
-        </p>
-        <div className="mt-6 flex justify-center space-x-4">
-          <button className="px-6 py-3 bg-primary text-black font-semibold rounded-xl shadow-md hover:scale-105 transform transition-all duration-300">
-            Get Started
-          </button>
-          <button className="px-6 py-3 border border-gray-400 text-gray-300 font-semibold rounded-xl hover:bg-gray-700 transition-all duration-300">
-            Learn More
-          </button>
-        </div>
-      </motion.div>
+        Welcome to Yo Sphere
+      </motion.h1>
+      <motion.p 
+        className="text-lg max-w-2xl mb-6"
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
+        Yo, it's <span className="font-semibold">Sanket3YoProgrammer</span>. I'm Sanket Kumar Padhan, 
+        a passionate developer, tech enthusiast, and problem solver. I love crafting innovative 
+        digital experiences and exploring the endless possibilities of the web.
+      </motion.p>
+      <div className="flex gap-4">
+        <a href="/portfolio" className="shiny-cta">My Portfolio</a>
+        <a href="/projects" className="shiny-cta">My Projects</a>
+      </div>
     </div>
   );
-};
-
-export default App;
+}
