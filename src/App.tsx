@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 export default function YoSphereLanding() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6">
-      <div className="rounded-3xl shadow-2xl overflow-hidden w-[40rem] p-6 relative">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6 rounded-3xl shadow-2xl overflow-hidden w-[40rem] p-6 relative">
+      <div className="">
         <div className="relative">
           <img 
             src="https://i0.wp.com/picjumbo.com/wp-content/uploads/blue-background-oil-abstraction-free-image.jpeg?w=600&quality=80" 
