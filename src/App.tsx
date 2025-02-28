@@ -27,7 +27,7 @@ export default function YoSphereLanding() {
           </motion.h1>
           <motion.p 
             className="text-lg max-w-lg mx-auto mb-6 text-gray-300"
-            style={{ fontFamily: 'Passions Conflict', fontWeight: '400', fontSize: '30px' }}
+            style={{ fontFamily: 'Rouge Script', fontWeight: '400', fontSize: '30px' }}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -37,8 +37,8 @@ export default function YoSphereLanding() {
             digital experiences and exploring the endless possibilities of the web.
           </motion.p>
           <div className="flex justify-center gap-6">
-            <a href="/portfolio" className="shiny-cta">My Portfolio</a>
-            <a href="/projects" className="shiny-cta">My Projects</a>
+            <a href="https://sanket3yoprogrammer.vercel.app/" className="shiny-cta">My Portfolio</a>
+            <a href="https://sanketme-projectportfolio.onrender.com/" className="shiny-cta">My Projects</a>
           </div>
         </div>
       </div>
