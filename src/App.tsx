@@ -2,8 +2,21 @@ import { motion } from "framer-motion";
 
 export default function YoSphereLanding() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6 ">
-      <div className="">
+    <div className="relative min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6">
+      
+      {/* Background Sphere Effect */}
+      <div className="absolute inset-0 -z-10 pointer-events-none">
+        {/* Example animated sphere, replace this with your effect */}
+        <motion.div 
+          className="absolute w-96 h-96 bg-blue-500 opacity-30 blur-3xl rounded-full"
+          initial={{ scale: 0, opacity: 0 }}
+          animate={{ scale: 1.2, opacity: 1 }}
+          transition={{ duration: 2 }}
+        />
+      </div>
+
+      {/* Profile Card (Ensuring it stays at the highest z-index) */}
+      <div className="relative z-20">
         <div className="relative">
           <img 
             src="https://i0.wp.com/picjumbo.com/wp-content/uploads/blue-background-oil-abstraction-free-image.jpeg?w=600&quality=80" 
