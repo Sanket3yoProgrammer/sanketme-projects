@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function YoSphereLanding() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-900 text-white text-center p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6">
       <div className="bg-gray-800 rounded-3xl shadow-2xl border border-gray-700 overflow-hidden w-[40rem] p-6 relative">
         <div className="relative">
           <img 
@@ -13,7 +13,7 @@ export default function YoSphereLanding() {
           <img 
             src="https://github.com/sanket3yoprogrammer.png" 
             alt="Profile" 
-            className="w-32 h-32 rounded-full border-6 border-gray-900 shadow-lg absolute left-1/2 transform -translate-x-1/2 -bottom-16"
+            className="w-32 h-32 rounded-full border-16 border-gray-900 shadow-lg absolute left-1/2 transform -translate-x-1/2 -bottom-16"
           />
         </div>
         <div className="p-8 pt-20 text-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-b-3xl shadow-xl">
