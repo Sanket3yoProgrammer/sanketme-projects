@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function YoSphereLanding() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6 overflow-hidden w-[40rem]">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6">
       <div className="">
         <div className="relative">
           <img 
