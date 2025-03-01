@@ -26,7 +26,7 @@ export default function YoSphereLanding() {
           <img 
             src="https://github.com/sanket3yoprogrammer.png" 
             alt="Profile" 
-            className="w-32 h-32 rounded-full border-[10px] border-gray-900 shadow-2xl absolute left-1/2 transform -translate-x-1/2 -bottom-16"
+            className="w-32 h-32 rounded-full border-[10px] border-gray-900 shadow-2xl absolute left-1/2 transform -translate-x-1/2 -bottom-16 bg-blue-300"
           />
         </div>
         <div className="p-8 pt-20 text-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-b-3xl shadow-xl">
