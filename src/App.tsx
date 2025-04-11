@@ -50,7 +50,7 @@ export default function YoSphereLanding() {
           </motion.p>
           <div className="flex justify-center gap-6">
             <a href="https://sanket3yoprogrammer.vercel.app/" className="shiny-cta">My Portfolio</a>
-            <a href="https://sanketme-projectportfolio.onrender.com/" className="shiny-cta">My Projects</a>
+            <a href="https://sanketprojects.onrender.com/" className="shiny-cta">My Projects</a>
           </div>
         </div>
       </div>
