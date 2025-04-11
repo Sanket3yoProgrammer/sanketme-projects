@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function YoSphereLanding() {
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6">
+    <div className="relative min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-blue-700 text-white text-center p-6 overflow-hidden">
       
       {/* Background Sphere Effect */}
       <div className="absolute inset-0 -z-10 pointer-events-none">
