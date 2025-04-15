@@ -49,8 +49,8 @@ export default function YoSphereLanding() {
             digital experiences and exploring the endless possibilities of the web.
           </motion.p>
           <div className="flex justify-center gap-6">
-            <a href="https://sanket3yoprogrammer.vercel.app/" className="shiny-cta">My Portfolio</a>
-            <a href="https://sanketprojects.vercek.app/" className="shiny-cta">My Projects</a>
+            <a href="https://yosanket.vercel.app/" className="shiny-cta">My Portfolio</a>
+            <a href="https://sanketprojects.vercel.app/" className="shiny-cta">My Projects</a>
           </div>
         </div>
       </div>
